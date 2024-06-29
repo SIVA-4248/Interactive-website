@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Elements with JavaScript</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!-- Form Validation -->
+    <form id="myForm" class="form">
+        <h2>Form Validation</h2>
+      <div class="my-email">
+        <label for="email" >Email:     </label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error"></span><br>
+      </div>
+      <div class="my-password">
+        <label for="password">Password:    </label>
+        <input type="password" id="password" name="password" required>
+        <span id="passwordError" class="error"></span><br><br>
+      </div>
+      <div class="my-button">
+
+        <button type="submit">Submit</button></div>
+    </form>
+
+    <!-- Interactive Menu -->
+    <div class="menu-all">
+        <h2>Interactive Menu</h2>
+        <div class="menu-button">Menu</div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <!-- Dynamic Content Updates -->
+    <div class="my-dynamic">
+        <h2>Dynamic Content Updates</h2>
+        <div id="content">Current content</div>
+      <div class="my-button">
+        <button id="updateButton">Update Content</button></div>
+    </div>
+     <script src="./scripts/script.js"></script>
+</body>
+</html>

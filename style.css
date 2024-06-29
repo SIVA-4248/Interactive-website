@@ -1,0 +1,109 @@
+body{
+  background-color:#ddd;
+  margin: 0;
+  background-image:url('https://res.cloudinary.com/ddu2bioed/image/upload/v1717748351/cld-sample-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h2{
+  color:blue;
+  text-align: center;
+  cursor: pointer;
+ 
+}
+
+/* Menu styles */
+.menu {
+    display: none;
+  
+  
+}
+.menu-button {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+   
+}
+.menu-button:hover {
+    background-color: #0056b3;
+}
+.menu li {
+    list-style: none;
+    margin:10px 0;
+}
+
+/* Form styles */
+.error {
+    color: red;
+}
+input {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    padding: 10px 20px;
+    background-color:#28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  
+}
+button:hover {
+    background-color: #218838;
+}
+
+/* Content update styles */
+#content {
+   margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.form{
+  
+  padding: 20px;
+  margin-bottom: 20px;
+  
+}
+.menu-all{
+  
+  padding: 20px;
+  margin-top: : 20px;
+  margin-bottom: 20px;
+  background-color:transparent;
+}
+.my-dynamic{
+  
+  padding: 20px;
+  margin: 0;
+}
+.my-email{
+  padding:auto;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
+.my-password{
+  padding: auto;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
+.my-button{
+  display: flex;
+  justify-content: center;
+}
+
+
