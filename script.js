@@ -1,5 +1,4 @@
 // Form Validation
-console.log("hello");
 document.getElementById('myForm').addEventListener('submit', function(event) {
     let isValid = true;
 
